@@ -1,0 +1,44 @@
+.Comments {
+    background-color:  rgb(233, 233, 233);
+    width: 92%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+.Comments label {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Comments input
+.Comments textarea,
+.Comments select {
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.Comments button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    
+}
+
+.Comments button:hover,
+.Comments button:active {
+    color: rgb(0, 0, 0);
+    background-color:rgb(225, 241, 241);
+}
